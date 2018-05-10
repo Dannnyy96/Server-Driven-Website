@@ -1,0 +1,157 @@
+html { 
+`		height: 100%; 
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	color:#499167;
+	text-decoration:none;
+	background:#FFFFFF;
+}
+
+a:hover {
+	color:#5FDD9D;
+	text-decoration:none;
+}
+
+#header{
+	background-color:#FFFFFF;
+	border-bottom: 2px solid;
+	border-color: #499167;
+	text-align:center;
+	margin-top: 18px;
+	height:5%;
+	z-index: 1;
+	width:100%
+	}
+	
+#adminheader{
+	background-color:#FFFFFF;
+	border-bottom: 2px solid;
+	border-color: #499167;
+	text-align:center;
+	margin-top: 18px;
+	height:5%;
+	z-index: 1;
+	width:100%
+	}
+	
+#footer {
+	color:#499167;
+	position:fixed;
+	bottom:0;
+	height:50px;
+	width:100%;
+	background:#FFFFFF;
+	text-align:center;
+	border-top: 2px solid;
+	border-color: #499167;
+	margin-top: 10px;
+	
+}
+
+h1{
+	text-align:center;
+	color: #499167;
+}
+
+#posts-table{
+	text-align:center;
+    margin: 0 auto;
+	border: 1px solid;
+	border-color: #499167;
+	
+}
+
+#profile{
+	text-align:center;
+	margin: 0 auto;
+	border: 1px solid;
+	border-color: #499167;
+	
+}
+
+#viewanyprofile{
+	text-align:center;
+	margin: 0 auto;
+	border: 1px solid;
+	border-color: #499167;
+	
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+	margin: 0 auto;
+	margin-top: 1%;
+	text-align:center;
+   }
+	
+#updateprofile{
+	margin: 0 auto;
+	display: block;
+	width:50%;
+	border:solid 2px;
+	border-color: #499167;
+}
+
+input[type=text], input[type=number], input[type=email], input[type=date], input[type=password]{
+	padding:6px;
+	width:50%;
+	margin:5px;
+
+}
+
+#snake{
+	margin: 0 auto;
+	display: block;
+
+}
+
+#signin{
+	margin: 0 auto;
+	display: block;
+	width:50%;
+	border:solid 2px;
+	border-color: #499167;
+
+}
+
+#signup{
+	margin: 0 auto;
+	display: block;
+	width:50%;
+	border:solid 2px;
+	border-color: #499167;
+
+}
+
+input[type=submit] {
+	width:250px;
+	height:30px;
+	border: 2px solid;
+	border-color: #499167;
+	margin: 0 auto;
+	margin-top:5px;
+	margin-bottom:10px;
+
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+	border: 2px solid;
+	border-color: #499167;
+	margin: 0 auto;
+	display: block;
+}
